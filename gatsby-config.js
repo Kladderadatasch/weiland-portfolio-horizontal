@@ -7,14 +7,14 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-emma-core/gatsby-config.js
-    siteTitle: `Emma`,
-    siteTitleAlt: `Emma - Gatsby Starter Portfolio`,
-    siteHeadline: `Emma - Gatsby Theme from @lekoarts`,
+    siteTitle: `Manu's Gallery`,
+    siteTitleAlt: `Manu's Gallery`,
+    siteHeadline: `Manu's Gallery`,
     siteUrl: `https://emma.lekoarts.de`,
     siteDescription: `Minimalistic portfolio with full-width grid, page transitions, support for additional MDX pages, and a focus on large images`,
     siteLanguage: `en`,
-    siteImage: `/banner.jpg`,
-    author: `@lekoarts_de`,
+    siteImage: `/banner.png`,
+    author: `Manu's Gallery`,
   },
   plugins: [
     {
@@ -26,8 +26,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Emma - @lekoarts/gatsby-theme-emma`,
-        short_name: `Emma`,
+        name: `Manu's Gallery`,
+        short_name: `Manu`,
         description: `Minimalistic bright portfolio with full-width grid and large images`,
         start_url: `/`,
         background_color: `#fff`,
